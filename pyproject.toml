@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Pytly"
+version = "0.0.10"
+authors = [
+  { name="Lucas A. Meyer", email="lucas@meyerperin.com" },
+]
+description = "A simple Python library for creating and manipulating T.LY links."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.31.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/lucas-a-meyer/pytly"
+Issues = "https://github.com/lucas-a-meyer/pytly/issues"
